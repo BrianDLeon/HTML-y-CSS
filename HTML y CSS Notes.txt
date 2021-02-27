@@ -106,5 +106,17 @@ Para lograr eso se pueden utilizar opciones como Tiny PNG que mejora el tamaño 
 -----------------------------------
 
 Etiqueta Figure
+
 <Figure>     <figcaption>
-Le agrega una descripcion a la imagen
+Le agrega una descripcion a la imagen.
+
+-----------------------------------
+
+Etiqueta de video
+
+la etiqueta basica es casi la misma que para las imagenes <video src="nombredelvideo.mp4#t=10,60" controls preload="auto"></video>
+Se le agrega "controls" para tener acceso a los botones de pausa y barra de minutos, etc.
+preload="auto" es para que se comience a descargar el video al momento de entrar en la pagina.
+#t=10,60 se puede agregar para poner segundos/minutos exactos que quiero que comience y termine el video.
+
+La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
