@@ -36,3 +36,17 @@ Las paginas dinamicas o Web Apps si estan conectadas a una base de datos, se tie
 Los usuarios pueden interactuar con la pagina, como subir una foto en Instagram, hacer un comentario en Twitter, crearse una cuenta en Facebook.
 
 -----------------------------------
+
+HTML (Hypertext Markup Lenguage)
+
+Es el codigo que se utiliza para estructurar el contenido de tu web, darle sentido y proposito.
+Hypertext significa que el texto tiene interactividad, conexion con otros documentos y Markup significa que se le pone etiquetas a los elementos, por eso se lo conoce como un lenguaje de etiquetas.
+
+Anatomia de una Pagina Web
+
+La mayoria de las paginas van a tener un contenedor que se le va a llamar header donde usualmente esta el logo o nombre de la empresa y un menu de navegacion.
+Puede tener la informacion principal que se le llama main o una sidebar.
+Finalmente van a tener un footer 
+
+-----------------------------------
+
