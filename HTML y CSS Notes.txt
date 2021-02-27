@@ -46,7 +46,23 @@ Anatomia de una Pagina Web
 
 La mayoria de las paginas van a tener un contenedor que se le va a llamar header donde usualmente esta el logo o nombre de la empresa y un menu de navegacion.
 Puede tener la informacion principal que se le llama main o una sidebar.
-Finalmente van a tener un footer 
+Finalmente van a tener un footer.
 
 -----------------------------------
+
+Index y su estructura 
+
+<!DOCTYPE html> Funciona para que el navegador lo tomo como HTML5.
+<html lang="lenguaje"> "Contenedor padre". Lang define el lenguaje, ejemplo, lang="es".
+<head> Dependencias, librerias externas (fuentes) o CSS (son las cosas que necesita el navegador y no son visibles para el usuario).
+<body> texto, imagenes, videos (visible para los usuarios).
+<meta charset="UTF-8"> El navegador puede comprender ciertos caracteres como la "ñ" o emojis.
+<meta name="description" content=""> Descripcion de la pagina, aparece debajo del titulo y url al buscarlo con un navegador.
+<meta name="robots" content="index,follow"> Autoriza a "robots" para que posicionen mejor la pagina en los buscadores. 
+<title> Titulo de la pagina.
+<meta name="viewport" content="width=device-width, inictial-scale=1.0"> Hace que se pueda adaptar a los dispositivos tanto mobiles como PC.
+<link rel="stylesheet" href="style.css"> Incorporar una hoja de estilos.
+
+-----------------------------------
+
 
