@@ -101,4 +101,10 @@ JPG/JPEG - Lossy
 Optimizacion de imagenes
 
 No es recomendable subir imagenes que pesen mas de 3MB porque es un archivo muy grande y va a tardar mucho en cargar, el tamaño optimo en promedio tiene que pesar ente 100KB y 70KB.
-Para lograr eso se pueden utilizar opciones como Tiny PNG que mejora el tamaño de tus imagenes o Verexif que retira metadatos de tus imagenes (esta ultima es usada principalmente para fotos sacadas con un celular)
+Para lograr eso se pueden utilizar opciones como Tiny PNG que mejora el tamaño de tus imagenes o Verexif que retira metadatos de tus imagenes (esta ultima es usada principalmente para fotos sacadas con un celular).
+
+-----------------------------------
+
+Etiqueta Figure
+<Figure>     <figcaption>
+Le agrega una descripcion a la imagen
