@@ -1,0 +1,13 @@
+HTML y CSScurso 
+
+Fundamentos 
+
+Perfiles de un dev
+
+Front-End (Navegador = cliente)
+Trabaja con HTML, CSS, JS
+Tambien usan Frameworks de CSS como Bootstrap o librerias de JS como Angular
+Preprocesadores de CSS como {Less}, Stylus o Sass
+Compiladores de JS como Babel o Webpack
+
+Back-End (Servidor = Toda la logica)
