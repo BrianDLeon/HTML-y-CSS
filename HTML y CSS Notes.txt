@@ -27,3 +27,12 @@ Es la persona que logra entender el Back-End y Front-End, entiende el desarrollo
 
 -----------------------------------
 
+Paginas Estaticas vs Dinamicas 
+
+Las paginas estaticas o Landing pages son todas las paginas que tienen informacacion para consumir y no van a cambiar, como un blog personal, se puede agregar nueva informacion pero por lo general se mantienen y no estan conectadas a un servidor o base de datos. 
+Los desarrolladores suben los cambios y el usuario no puede generar ningun cambio (ejemplo no tienen login).
+
+Las paginas dinamicas o Web Apps si estan conectadas a una base de datos, se tiene que guardar informacion del usuario como un login, informacion personal, etc. 
+Los usuarios pueden interactuar con la pagina, como subir una foto en Instagram, hacer un comentario en Twitter, crearse una cuenta en Facebook.
+
+-----------------------------------
