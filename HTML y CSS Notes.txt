@@ -50,7 +50,7 @@ Finalmente van a tener un footer.
 
 -----------------------------------
 
-Index y su estructura 
+Index y su estructura (head)
 
 <!DOCTYPE html> Funciona para que el navegador lo tomo como HTML5.
 <html lang="lenguaje"> "Contenedor padre". Lang define el lenguaje, ejemplo, lang="es".
@@ -60,9 +60,22 @@ Index y su estructura
 <meta name="description" content=""> Descripcion de la pagina, aparece debajo del titulo y url al buscarlo con un navegador.
 <meta name="robots" content="index,follow"> Autoriza a "robots" para que posicionen mejor la pagina en los buscadores. 
 <title> Titulo de la pagina.
-<meta name="viewport" content="width=device-width, inictial-scale=1.0"> Hace que se pueda adaptar a los dispositivos tanto mobiles como PC.
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> Hace que se pueda adaptar a los dispositivos tanto mobiles como PC.
 <link rel="stylesheet" href="style.css"> Incorporar una hoja de estilos.
 
 -----------------------------------
 
+Index y su estructura (body)
 
+Existen etiquetas de contenido y contenedoras.
+Las de contenido llevan texto, videos, imagenes y las contenedores llevan mas etiquetas adentro para generar la estructura de la pagina.
+<header><nav> Sirve para hacer una barra de navegacion.
+<main> Contenido principal.
+<footer> Pie de la pagina.
+<ul> y <ol> Sirven para hacer listas
+<li> Agrega un itema a la lista.
+<p> Parrafo.
+<h1> a <h6> Es un titulo, hace que el texto salga mas grande h1 es el mayor tamaño y h6 el menor.
+<a href="#"> Crear hipervinculos (links)
+
+-----------------------------------
