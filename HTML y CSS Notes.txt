@@ -85,6 +85,17 @@ Anatomia de una etiquetas
 Las etiquetas tiene una apertura y algunos poseen una etiqueta de cierra como por ejemplo <a href="url"> click aqui </a>.
 a href es el nombre del atribito y "url" es el valor del atributo.
 Click aqui es el contenido de dicha etiqueta.
-Todo esto forma un elemento 
+Todo esto forma un elemento.
+
+-----------------------------------
+
+Etiquetas multimedia
+
+Tipo de imagenes
+
+Hay dos clasificasionces lossy y lossless, con perdida o sin perdida. depende del formato que maneje la imagen.
+Los archivos con perdida son muchos mas pequeños que los que no poseen perdidas por ende tu sitio va a cargar mas rapido.
+GIF, PNG, SVG - Lossless
+JPG/JPEG - Lossy
 
 -----------------------------------
