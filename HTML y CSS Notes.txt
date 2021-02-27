@@ -120,3 +120,19 @@ preload="auto" es para que se comience a descargar el video al momento de entrar
 #t=10,60 se puede agregar para poner segundos/minutos exactos que quiero que comience y termine el video.
 
 La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+
+-----------------------------------
+
+Formularios
+
+<form action="URL de la base de datos"></form>
+Esta etiqueta le dice al navegador que lo que viene aqui es un formulario y el usuario va a dejar informacion.
+
+El input type="" se puede cambiar dependiendo de que sea lo que necesitemos preguntar.
+Text si queremos que se ingrese texto como un nombre.
+date si queremos una fecha de cumpleaños, inicio de clases (agrega la opcion de marcar la fecha en un calendario).
+time para agregar un horario (agrega la opcion de marcar la hora).
+
+Tambien se puede agregar un placeholder que va dentro del input para especificar en el contenedor que se debe agregar.
+
+-----------------------------------
