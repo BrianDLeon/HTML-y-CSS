@@ -142,5 +142,7 @@ ejemplo autocomplete="email" te traera los correos que uses habitualmente para q
 
 required se agrega a informacion necesaria (para los campos que sean obligatorios)
 
+Una forma de crear listas es con la etiqueta <input list = ""> De este modo, se puede utilizar una etiqueta <datalist> con etiquetas <option> dentro del input. De este modo, el usuario puede escribir dentro del input, y filtrar los resultados de la lista.
+
 -----------------------------------
 
