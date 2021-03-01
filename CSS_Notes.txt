@@ -1,0 +1,9 @@
+Que es CSS? (Cascading Styles Sheets)
+
+Es un lenguaje que se encarga de todo el diseño o estilo de la pagina, podremos agregar colores, editar tamaños de fotos, etc
+
+Para agregar un CSS a nuestro archivo HTML se utiliza la etiqueta <link rel="stylesheet" href=""> em href va la ruta de nuestro archivo .css
+
+/* Esta es la forma de hacer comentarios en css */ 
+
+para modificar algo con css se puede agregar la etiqueta class="ejemplo" y en css se lo agrega como .ejemplo para empezar a agregarle estilos.
