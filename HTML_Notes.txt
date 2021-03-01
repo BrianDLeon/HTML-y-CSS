@@ -1,0 +1,150 @@
+HTML y CSS (Fundamentos)
+
+Perfiles de un Developer
+
+Front-End (Navegador = cliente)
+
+Trabaja con HTML, CSS, JS.
+Tambien usan Frameworks de CSS como Bootstrap o librerias de JS como Angular.
+Preprocesadores de CSS como {Less}, Stylus o Sass.
+Compiladores de JS como Babel o Webpack.
+
+-----------------------------------
+
+Back-End (Servidor = Toda la logica)
+
+Lenguajes de programacion PHP, Java, GO, Node, Ruby, Phyton, etc.
+Tiene Frameworks como Django, Laravel, Rails, Express, Spring.
+Necesita ver donde va a subir su app (El DevOps se suele encargar pero es bueno saberlo en general para Back-End) Google Cloud, AWS, Heroku, DigitalOcean.
+Tambien trabaja con Base de Datos, existen las relacionales como MySQL y las no relacionales como mongoDB.
+
+-----------------------------------
+
+Fullstack
+
+Que es lo que hace?
+Es la persona que logra entender el Back-End y Front-End, entiende el desarrollo de una aplicacion de principio a fin, pero tiene una area de especializacion.
+
+-----------------------------------
+
+Paginas Estaticas vs Dinamicas 
+
+Las paginas estaticas o Landing pages son todas las paginas que tienen informacacion para consumir y no van a cambiar, como un blog personal, se puede agregar nueva informacion pero por lo general se mantienen y no estan conectadas a un servidor o base de datos. 
+Los desarrolladores suben los cambios y el usuario no puede generar ningun cambio (ejemplo no tienen login).
+
+Las paginas dinamicas o Web Apps si estan conectadas a una base de datos, se tiene que guardar informacion del usuario como un login, informacion personal, etc. 
+Los usuarios pueden interactuar con la pagina, como subir una foto en Instagram, hacer un comentario en Twitter, crearse una cuenta en Facebook.
+
+-----------------------------------
+
+HTML (Hypertext Markup Lenguage)
+
+Es el codigo que se utiliza para estructurar el contenido de tu web, darle sentido y proposito.
+Hypertext significa que el texto tiene interactividad, conexion con otros documentos y Markup significa que se le pone etiquetas a los elementos, por eso se lo conoce como un lenguaje de etiquetas.
+
+Anatomia de una Pagina Web
+
+La mayoria de las paginas van a tener un contenedor que se le va a llamar header donde usualmente esta el logo o nombre de la empresa y un menu de navegacion.
+Puede tener la informacion principal que se le llama main o una sidebar.
+Finalmente van a tener un footer.
+
+-----------------------------------
+
+Index y su estructura (head)
+
+<!DOCTYPE html> Funciona para que el navegador lo tomo como HTML5.
+<html lang="lenguaje"> "Contenedor padre". Lang define el lenguaje, ejemplo, lang="es".
+<head> Dependencias, librerias externas (fuentes) o CSS (son las cosas que necesita el navegador y no son visibles para el usuario).
+<body> texto, imagenes, videos (visible para los usuarios).
+<meta charset="UTF-8"> El navegador puede comprender ciertos caracteres como la "ñ" o emojis.
+<meta name="description" content=""> Descripcion de la pagina, aparece debajo del titulo y url al buscarlo con un navegador.
+<meta name="robots" content="index,follow"> Autoriza a "robots" para que posicionen mejor la pagina en los buscadores. 
+<title> Titulo de la pagina.
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> Hace que se pueda adaptar a los dispositivos tanto mobiles como PC.
+<link rel="stylesheet" href="style.css"> Incorporar una hoja de estilos.
+
+-----------------------------------
+
+Index y su estructura (body)
+
+Existen etiquetas de contenido y contenedoras.
+Las de contenido llevan texto, videos, imagenes y las contenedores llevan mas etiquetas adentro para generar la estructura de la pagina.
+<header><nav> Sirve para hacer una barra de navegacion.
+<main> Contenido principal.
+<footer> Pie de la pagina.
+<ul> y <ol> Sirven para hacer listas
+<li> Agrega un itema a la lista.
+<p> Parrafo.
+<h1> a <h6> Es un titulo, hace que el texto salga mas grande h1 es el mayor tamaño y h6 el menor.
+<a href="#"> Crear hipervinculos (links)
+
+-----------------------------------
+
+Anatomia de una etiquetas
+
+Las etiquetas tiene una apertura y algunos poseen una etiqueta de cierra como por ejemplo <a href="url"> click aqui </a>.
+a href es el nombre del atribito y "url" es el valor del atributo.
+Click aqui es el contenido de dicha etiqueta.
+Todo esto forma un elemento.
+
+-----------------------------------
+
+Tipo de imagenes
+
+Hay dos clasificasionces lossy y lossless, con perdida o sin perdida. depende del formato que maneje la imagen.
+Los archivos con perdida son muchos mas pequeños que los que no poseen perdidas por ende tu sitio va a cargar mas rapido.
+GIF, PNG, SVG - Lossless
+JPG/JPEG - Lossy
+
+-----------------------------------
+
+Optimizacion de imagenes
+
+No es recomendable subir imagenes que pesen mas de 3MB porque es un archivo muy grande y va a tardar mucho en cargar, el tamaño optimo en promedio tiene que pesar ente 100KB y 70KB.
+Para lograr eso se pueden utilizar opciones como Tiny PNG que mejora el tamaño de tus imagenes o Verexif que retira metadatos de tus imagenes (esta ultima es usada principalmente para fotos sacadas con un celular).
+
+-----------------------------------
+
+Etiqueta Figure
+
+<Figure>     <figcaption>
+Le agrega una descripcion a la imagen.
+
+-----------------------------------
+
+Etiqueta de video
+
+la etiqueta basica es casi la misma que para las imagenes <video src="nombredelvideo.mp4#t=10,60" controls preload="auto"></video>
+Se le agrega "controls" para tener acceso a los botones de pausa y barra de minutos, etc.
+preload="auto" es para que se comience a descargar el video al momento de entrar en la pagina.
+#t=10,60 se puede agregar para poner segundos/minutos exactos que quiero que comience y termine el video.
+
+La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+
+-----------------------------------
+
+Formularios
+
+<form action="URL de la base de datos"></form>
+Esta etiqueta le dice al navegador que lo que viene aqui es un formulario y el usuario va a dejar informacion.
+
+El input type="" se puede cambiar dependiendo de que sea lo que necesitemos preguntar.
+Text si queremos que se ingrese texto como un nombre.
+date si queremos una fecha de cumpleaños, inicio de clases (agrega la opcion de marcar la fecha en un calendario).
+time para agregar un horario (agrega la opcion de marcar la hora).
+
+Tambien se puede agregar un placeholder que va dentro del input para especificar en el contenedor que se debe agregar.
+
+<input type="submit"> Funcion de enviar informacion y lo utilizamos solo en formularios.
+
+autocomplete="atributo requerido" se puede usar para que se llene con la informacion deseada. 
+ejemplo autocomplete="email" te traera los correos que uses habitualmente para que se llene automaticamente.
+
+required se agrega a informacion necesaria (para los campos que sean obligatorios)
+
+Una forma de crear listas es con la etiqueta <input list = ""> De este modo, se puede utilizar una etiqueta <datalist> con etiquetas <option> dentro del input. De este modo, el usuario puede escribir dentro del input, y filtrar los resultados de la lista.
+
+<button type="submit"> lo utilizaremos en cualquier caso que necesitemos un boton.
+
+-----------------------------------
+
