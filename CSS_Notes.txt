@@ -7,3 +7,13 @@ Para agregar un CSS a nuestro archivo HTML se utiliza la etiqueta <link rel="sty
 /* Esta es la forma de hacer comentarios en css */ 
 
 para modificar algo con css se puede agregar la etiqueta class="ejemplo" y en css se lo agrega como .ejemplo para empezar a agregarle estilos.
+
+--------------------------------------
+
+<ul class="main-nav">
+                    <li class="main-nav__item">
+main-nav__item va a tener los mismos estilos que main-nav
+
+Pseudo clase define el estilo de un estado especial de un elemento.
+
+Pseudo elemento define el estilo de una parte especifica del elemento.
