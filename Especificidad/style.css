@@ -41,6 +41,7 @@ h1
 }
 #main-nav .blog
 {
-    background-color: red;
+    background-color: red !important;
 }
 /*Los estilos embebidos en HTML (inline styles) estan por encima de las clases e IDs (se pueden utilizar pero es preferible evitarlos)*/
+/*A la hora de agregar el !important pasa a tener prioridad este ultimo, quedando el estilo embebido de HTML nulo*/
