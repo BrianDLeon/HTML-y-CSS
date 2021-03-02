@@ -1,7 +1,15 @@
+div p
+{
+    color: yellowgreen;
+}
+
+/*
 div > p
 {
     color: yellow;
 }
+Este es un ejemplo de Child
+*/
 
 /*
 h2 + p
