@@ -1,4 +1,13 @@
-main
+.text-container
+{
+    font-size: 1.5em;/*Toma el tamaño de fuente del elemento padre (ejemplo 16px que tiene HTML lo multiplica por 1.5 )*/
+}
+.text-container div
+{
+    font-size: 1.5em; /*Debemos de tener cuidado al usar em ya que nos toma los 24px del em de arriba para sacar su medida y nos puede generar problemas*/
+}
+
+/*main
 {
     background-color: yellowgreen;
     width: 100%;
@@ -6,6 +15,7 @@ main
 }
 p
 {
-    font-size: 18px; /*Medida absoluta*/
-    /*font-size: 50%; Medida relativa*/
+    font-size: 18px; Medida absoluta
+    font-size: 50%; Medida relativa
 }
+*/
