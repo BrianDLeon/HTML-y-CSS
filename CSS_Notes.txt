@@ -54,5 +54,12 @@ Inline styles  0.1.0.0.0
 .class         0.0.0.1.0
 tag            0.0.0.0.1
 
+Los !important e inline styles por mas prioridad que le den a nuestros estiles es recomendable evitarlos para no sobreescribir el codigo que podamos llegar a tener o genere algun compañero.
+
+Los IDs estan por encima de las clases. Los IDs son especificos, si se usa uno en un archivo HTML ya no se podra repetir mas en ese archivo. Mientras que las clases si se pueden repetir en cualquier momento.
+
+Un estilo de etiqueta es el ultimo valor que el navegador tiene en cuenta antes de tomar los estilos por defecto de esa etiqueta. Los estilos de eitquetas son los que menos peso tienen.
+
 Orden de las fuentes
 En tus estilos, las declaraciones al final del documento anularan a las que sucedan antes en caso de conflicto.
+
