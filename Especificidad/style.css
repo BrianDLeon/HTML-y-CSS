@@ -19,4 +19,28 @@ h1
     font-size: 18px;
     font-family: monospace;
 }
-/*El font-size de h1 y .title no se aplican, en cambio la de #page-title si debido a que tiene prioridad/*
+/*El font-size de h1 y .title no se aplican, en cambio la de #page-title si debido a que tiene prioridad*/
+
+#main-nav
+{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav li
+{
+    display: inline-block;
+}
+#main-nav a
+{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+#main-nav .blog
+{
+    background-color: red;
+}
+/*Los estilos embebidos en HTML (inline styles) estan por encima de las clases e IDs (se pueden utilizar pero es preferible evitarlos)*/
