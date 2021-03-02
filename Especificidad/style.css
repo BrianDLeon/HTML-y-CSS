@@ -1,6 +1,14 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 h1
 {
+    color: magenta;
     font-family: serif;
+    margin-bottom: 10px;
 }
 #page-title
 {
@@ -9,4 +17,6 @@ h1
 .title
 {
     font-size: 18px;
+    font-family: monospace;
 }
+/*El font-size de h1 y .title no se aplican, en cambio la de #page-title si debido a que tiene prioridad/*
