@@ -1,4 +1,12 @@
+/*
 h2 + p
 {
     color: springgreen;
+}
+Este es un ejemplo de Adjacent Sibling
+*/
+
+h2 ~ p
+{
+    color: turquoise;
 }
