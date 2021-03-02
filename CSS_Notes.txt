@@ -65,11 +65,19 @@ En tus estilos, las declaraciones al final del documento anularan a las que suce
 
 --------------------------------------
 
-Los combinadores
+Medidas
 
-Nos permiten combinar multiples selectores y crear una mayor especificidad.
+absoluta el valor de este no cambia y siempre sera el mismo asi la pagina cambie de su tamaños.
 
-Hermano adyacente o cercano (Adjacent sibling)
-div + p {
-    ...
-}
+mm = milimetros
+cm = centimetros
+in = pulgadas 
+pc = picas 
+px = pixeles
+
+Las medidas relativas heredan el tamaño o se basan en algun tamaño que se alla seleccionado y el valor ira cambiando segun si la pagina cambia de tamaño o se cambia de dispositivo.
+
+ex
+%
+em 
+rem
