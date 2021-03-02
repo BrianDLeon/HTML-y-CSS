@@ -33,3 +33,26 @@ Acomoda automaticamente los elementos de CSS a el tamaño de pantalla.
 Herencia 
 
 inherit, este es un valor que especifica que, a la propiedad que se la apliquemos debe heredar los valores de su "elemento padre". Si el elemento padre no tiene definido dicho valor seguira el dom hasta que encuentre un elemento superior que lo tenga, y en ultima instancia de no tener ningun elemento superior, se aplicara el valor por defecto.
+
+--------------------------------------
+
+Como se controla el orden al declarar CSS?
+
+La importancia es uno de los conceptos mas importantes, si dos declaraciones tienen la misma importancia, la especificidad de las reglas decidira cual se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final.
+
+importancia
+
+1. Hoja de estilo de agente de usuario (Estilos del navegador)
+2. Declaraciones normales en hojas de estilo de autor (Nuestro.css)
+3. Declaraciones importantes en hojas de estilos de autor (Utilizar el !important)
+
+Selectores     Especificidad
+
+!important     1.0.0.0.0
+Inline styles  0.1.0.0.0
+#id            0.0.1.0.0
+.class         0.0.0.1.0
+tag            0.0.0.0.1
+
+Orden de las fuentes
+En tus estilos, las declaraciones al final del documento anularan a las que sucedan antes en caso de conflicto.
