@@ -63,3 +63,13 @@ Un estilo de etiqueta es el ultimo valor que el navegador tiene en cuenta antes 
 Orden de las fuentes
 En tus estilos, las declaraciones al final del documento anularan a las que sucedan antes en caso de conflicto.
 
+--------------------------------------
+
+Los combinadores
+
+Nos permiten combinar multiples selectores y crear una mayor especificidad.
+
+Hermano adyacente o cercano (Adjacent sibling)
+div + p {
+    ...
+}
