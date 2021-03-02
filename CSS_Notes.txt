@@ -29,3 +29,7 @@ Pseudo elemento define el estilo de una parte especifica del elemento.
 Acomoda automaticamente los elementos de CSS a el tamaño de pantalla.
 
 --------------------------------------
+
+Herencia 
+
+inherit, este es un valor que especifica que, a la propiedad que se la apliquemos debe heredar los valores de su "elemento padre". Si el elemento padre no tiene definido dicho valor seguira el dom hasta que encuentre un elemento superior que lo tenga, y en ultima instancia de no tener ningun elemento superior, se aplicara el valor por defecto.
