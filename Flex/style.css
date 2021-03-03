@@ -12,36 +12,31 @@ body{
 .container{ /*es necesario el contenedor padre para utilizar flex*/
     border: 0.3rem solid chocolate;
     display: flex; /*permite que esten uno al lado del otro*/
-    align-items: baseline;
-    height: 50vh;
+    flex-wrap: wrap;
 }
 .box{
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 .box1{
     background-color: red;
-    order: 1;
+    /*flex-grow: 1; rellena el espacio en blanco haciendo que la caja crezca rellenando el espacio que sobre*/
 }
 .box2{
     background-color: orange;
-    order: 3;
 }
 .box3{
     background-color: yellow;
-    order: 6;
 }
 .box4{
     background-color: yellowgreen;
-    order: 2;
 }
 .box5{
     background-color: skyblue;
-    order: 4;
 }
 .box6{
     background-color: steelblue;
-        order: 5;
 }
 
 /*container
