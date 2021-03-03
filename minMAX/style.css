@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: chocolate;
+}
+section{
+    width: 80%;
+    min-width: 320px; /*Tamaño minimo aceptado, luego no se achica mas*/
+    max-width: 500px; /*Limita el crecimiento*/
+    min-height: 500px;/*Limita la altura pero si hay contenido que quede afuera crece lo necesario para que no quede fuera*/
+    margin: 0 auto;
+    background-color: cornflowerblue;
+}
