@@ -1,0 +1,21 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 62.5%; /*Un rem va a ser siempre 10px si quiero 16px voy a poner 1.6, si quiero 20px voy a poner 2rem*/
+}
+p
+{
+    font-size: 1.6rem;
+}
+main div
+{
+    font-size: 1.6rem;
+}
+
+/*em toma referencia de su contenedor padre
+mientras que rem toma referencia de HTML (16px)*/
