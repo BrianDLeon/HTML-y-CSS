@@ -12,10 +12,8 @@ body{
 .container{ /*es necesario el contenedor padre para utilizar flex*/
     border: 0.3rem solid chocolate;
     display: flex; /*permite que esten uno al lado del otro*/
-    justify-content: space-evenly; /*le da un espacio a cada uno de los contenedores*/
-    /*justify-content: center;/*centra el contenido*/
-    /*flex-direction: row-reverse; cambia de lado y numeracion*/
-    /*flex-wrap: wrap; cuando un elemento no tiene espacio baja a la siguiente fila de forma automatica y el contenedor crece*/
+    align-items: baseline;
+    height: 50vh;
 }
 .box{
     width: 10rem;
@@ -23,19 +21,32 @@ body{
 }
 .box1{
     background-color: red;
+    order: 1;
 }
 .box2{
     background-color: orange;
+    order: 3;
 }
 .box3{
     background-color: yellow;
+    order: 6;
 }
 .box4{
     background-color: yellowgreen;
+    order: 2;
 }
 .box5{
     background-color: skyblue;
+    order: 4;
 }
 .box6{
     background-color: steelblue;
+        order: 5;
 }
+
+/*container
+    justify-content: center;/*centra el contenido
+    flex-direction: row-reverse; cambia de lado y numeracion
+    flex-wrap: wrap; cuando un elemento no tiene espacio baja a la siguiente fila de forma automatica y el contenedor crece
+    justify-content: space-evenly; /*le da un espacio a cada uno de los contenedores
+    */
